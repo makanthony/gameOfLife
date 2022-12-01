@@ -12,7 +12,7 @@ def fill (board):
     for x in range(20):
         for y in range(20):
             num = rand.uniform(1, 10)
-            if num < 5:
+            if num <= 4:
                 board[x, y] = 1
     return board
 
